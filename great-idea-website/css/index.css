@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,3 +64,22 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	box-sizing:border-box;
+	padding:0;
+	max-width:100%;
+}
+.nav{
+	direction: none;
+}
+.first-section{
+	display: inline-block;
+	width:50%;
+	text-align:left;
+	padding:10px;
+}
+.logo{
+	display:inline-block;
+	margin-left:15%;
+	vertical-align:middle;
+}
