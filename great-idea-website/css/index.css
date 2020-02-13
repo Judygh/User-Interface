@@ -64,13 +64,12 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-*{
-	box-sizing:border-box;
-	padding:0;
-	max-width:100%;
+.container{
+	width:800px;
+	margin:auto;
 }
-.nav{
-	direction: none;
+nav a{
+	text-decoration: none;
 }
 .first-section{
 	display: inline-block;
